@@ -30,7 +30,6 @@
         {
             this.test1TextBox = new System.Windows.Forms.TextBox();
             this.test2TextBox = new System.Windows.Forms.TextBox();
-            this.test3TextBox = new System.Windows.Forms.TextBox();
             this.test1PromptLabel = new System.Windows.Forms.Label();
             this.test2PromptLabel = new System.Windows.Forms.Label();
             this.test3PromptLabel = new System.Windows.Forms.Label();
@@ -45,7 +44,7 @@
             // 
             this.test1TextBox.Font = new System.Drawing.Font("微軟正黑體", 22F);
             this.test1TextBox.Location = new System.Drawing.Point(261, 13);
-            this.test1TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.test1TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.test1TextBox.Name = "test1TextBox";
             this.test1TextBox.Size = new System.Drawing.Size(148, 66);
             this.test1TextBox.TabIndex = 0;
@@ -54,19 +53,10 @@
             // 
             this.test2TextBox.Font = new System.Drawing.Font("微軟正黑體", 22F);
             this.test2TextBox.Location = new System.Drawing.Point(261, 95);
-            this.test2TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.test2TextBox.Margin = new System.Windows.Forms.Padding(4);
             this.test2TextBox.Name = "test2TextBox";
             this.test2TextBox.Size = new System.Drawing.Size(148, 66);
             this.test2TextBox.TabIndex = 1;
-            // 
-            // test3TextBox
-            // 
-            this.test3TextBox.Font = new System.Drawing.Font("微軟正黑體", 22F);
-            this.test3TextBox.Location = new System.Drawing.Point(261, 165);
-            this.test3TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.test3TextBox.Name = "test3TextBox";
-            this.test3TextBox.Size = new System.Drawing.Size(148, 66);
-            this.test3TextBox.TabIndex = 2;
             // 
             // test1PromptLabel
             // 
@@ -75,9 +65,9 @@
             this.test1PromptLabel.Location = new System.Drawing.Point(69, 24);
             this.test1PromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.test1PromptLabel.Name = "test1PromptLabel";
-            this.test1PromptLabel.Size = new System.Drawing.Size(159, 55);
+            this.test1PromptLabel.Size = new System.Drawing.Size(122, 55);
             this.test1PromptLabel.TabIndex = 3;
-            this.test1PromptLabel.Text = "測驗 1:";
+            this.test1PromptLabel.Text = "工時:";
             // 
             // test2PromptLabel
             // 
@@ -86,9 +76,9 @@
             this.test2PromptLabel.Location = new System.Drawing.Point(69, 95);
             this.test2PromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.test2PromptLabel.Name = "test2PromptLabel";
-            this.test2PromptLabel.Size = new System.Drawing.Size(159, 55);
+            this.test2PromptLabel.Size = new System.Drawing.Size(122, 55);
             this.test2PromptLabel.TabIndex = 4;
-            this.test2PromptLabel.Text = "測驗 2:";
+            this.test2PromptLabel.Text = "時薪:";
             // 
             // test3PromptLabel
             // 
@@ -97,9 +87,8 @@
             this.test3PromptLabel.Location = new System.Drawing.Point(78, 176);
             this.test3PromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.test3PromptLabel.Name = "test3PromptLabel";
-            this.test3PromptLabel.Size = new System.Drawing.Size(159, 55);
+            this.test3PromptLabel.Size = new System.Drawing.Size(0, 55);
             this.test3PromptLabel.TabIndex = 5;
-            this.test3PromptLabel.Text = "測驗 3:";
             // 
             // averageLabel
             // 
@@ -108,7 +97,7 @@
             this.averageLabel.Location = new System.Drawing.Point(289, 250);
             this.averageLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.averageLabel.Name = "averageLabel";
-            this.averageLabel.Size = new System.Drawing.Size(268, 128);
+            this.averageLabel.Size = new System.Drawing.Size(780, 128);
             this.averageLabel.TabIndex = 6;
             this.averageLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -119,19 +108,19 @@
             this.outputDescriptionLabel.Location = new System.Drawing.Point(27, 269);
             this.outputDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.outputDescriptionLabel.Name = "outputDescriptionLabel";
-            this.outputDescriptionLabel.Size = new System.Drawing.Size(210, 55);
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(200, 55);
             this.outputDescriptionLabel.TabIndex = 7;
-            this.outputDescriptionLabel.Text = "平均分數:";
+            this.outputDescriptionLabel.Text = "薪資總額";
             // 
             // calculateButton
             // 
             this.calculateButton.Font = new System.Drawing.Font("微軟正黑體", 22F);
             this.calculateButton.Location = new System.Drawing.Point(43, 482);
-            this.calculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(268, 277);
             this.calculateButton.TabIndex = 8;
-            this.calculateButton.Text = "計算平均";
+            this.calculateButton.Text = "計算薪資";
             this.calculateButton.UseVisualStyleBackColor = true;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
@@ -139,7 +128,7 @@
             // 
             this.clearButton.Font = new System.Drawing.Font("微軟正黑體", 22F);
             this.clearButton.Location = new System.Drawing.Point(428, 559);
-            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(329, 209);
             this.clearButton.TabIndex = 9;
@@ -151,7 +140,7 @@
             // 
             this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 22F);
             this.exitButton.Location = new System.Drawing.Point(853, 559);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(254, 212);
             this.exitButton.TabIndex = 10;
@@ -172,12 +161,12 @@
             this.Controls.Add(this.test3PromptLabel);
             this.Controls.Add(this.test2PromptLabel);
             this.Controls.Add(this.test1PromptLabel);
-            this.Controls.Add(this.test3TextBox);
             this.Controls.Add(this.test2TextBox);
             this.Controls.Add(this.test1TextBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "平均分數計算";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,7 +176,6 @@
 
         private System.Windows.Forms.TextBox test1TextBox;
         private System.Windows.Forms.TextBox test2TextBox;
-        private System.Windows.Forms.TextBox test3TextBox;
         private System.Windows.Forms.Label test1PromptLabel;
         private System.Windows.Forms.Label test2PromptLabel;
         private System.Windows.Forms.Label test3PromptLabel;

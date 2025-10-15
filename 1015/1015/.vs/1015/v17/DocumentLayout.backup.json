@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\1015\\1015\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7649E11E-972A-48DA-8731-7313FD844F50}|1015\\1015.csproj|c:\\users\\m303\\desktop\\114_1_c_sharp\\1015\\1015\\1015\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7649E11E-972A-48DA-8731-7313FD844F50}|1015\\1015.csproj|solutionrelative:1015\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\1015\\1015\\1015\\Form1.cs",
+              "RelativeDocumentMoniker": "1015\\Form1.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_1_C_Sharp\\1015\\1015\\1015\\Form1.cs [Design]",
+              "RelativeToolTip": "1015\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:00:47.606Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

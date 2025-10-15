@@ -21,7 +21,7 @@ namespace Test_Average
         // 當使用者按下「計算平均」按鈕時觸發
         private void calculateButton_Click(object sender, EventArgs e)
         {
-            double test1, test2, test3;
+            const decimal BASE HOURS
             try
             {
 
@@ -56,6 +56,11 @@ namespace Test_Average
         {
             // 關閉表單
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
